@@ -147,3 +147,12 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Amplify Gen 2 and local credentials
+.amplify/
+amplify_outputs*
+cdk.out/
+.env*
+*.pem
+*.key
+.DS_Store
